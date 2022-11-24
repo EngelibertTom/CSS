@@ -1,0 +1,58 @@
+body {
+    margin:0;
+}
+
+@font-face {
+    font-family: 'vintage_kingregular';
+    src: url('../../assets/font/vintageking-webfont.woff') format('woff2'),
+    url('../../assets/font/vintageking-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sweet purple';
+    src: url('../../assets/font/sweet_purple-webfont.woff') format('woff2'),
+    url('../../assets/font/sweet_purple-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.discover {
+    background-color: #F88B61;
+}
+
+.discover .logo {
+    text-align: center;
+
+}
+
+.discover h1 {
+    text-align:center;
+    font-family: "vintage_kingregular";
+    color:#F7E9C0;
+    font-weight:normal;
+    text-shadow: 1px 1px 2px black;
+}
+
+.btnwrap  {
+    text-align: center;
+}
+
+.btnwrap button {
+    padding:15px;
+    border:1px solid #D93D4C;
+    border-radius: 10px;
+    padding-right:30px;
+    padding-left:30px;
+    box-shadow: 0.5px 1px 3px black;
+    text-align: center;
+    font-family: "sweet purple";
+    font-size: 30px;
+    background-color: #D93D4C;
+    color:white;
+    margin-bottom:10rem;
+}
+
