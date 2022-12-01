@@ -1,0 +1,75 @@
+body {
+    margin:0;
+}
+
+@font-face {
+    font-family: 'vintage_kingregular';
+    src: url('../../assets/font/vintageking-webfont.woff') format('woff2'),
+    url('../../assets/font/vintageking-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sweet purple';
+    src: url('../../assets/font/sweet_purple-webfont.woff') format('woff2'),
+    url('../../assets/font/sweet_purple-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.discover {
+    background-color: #D93D4C;
+    padding: 100px;
+}
+
+.discover .logo {
+    text-align: center;
+
+}
+
+.discover .logo img{
+    height: 110px;
+    width: auto;
+}
+
+h1{
+    font-family: 'vintage_kingregular';
+    color : white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+}
+
+p{
+    font-size: 25px;
+    color :white;
+}
+
+.gontran {
+    background-color: #C01D2A;
+    padding : 40px;
+    height: 400px;
+}
+
+.gontran .piment{
+    background-color: white;
+    padding: 50px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.gontran .flamme img{
+    position: absolute;
+    margin: 110px;
+    margin-top:10px;
+}
+
+.gontran .titre{
+    margin-left: 400px;
+    text-align: left;
+}
+

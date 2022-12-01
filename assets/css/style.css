@@ -24,8 +24,10 @@ body {
     background-color: #F88B61;
 }
 
-.discover .logo {
+.discover .header_logo {
     text-align: center;
+    margin-bottom: 150px;
+    padding-top:20px;
 
 }
 
@@ -35,6 +37,7 @@ body {
     color:#F7E9C0;
     font-weight:normal;
     text-shadow: 1px 1px 2px black;
+    font-size:50px;
 }
 
 .btnwrap  {
@@ -45,14 +48,49 @@ body {
     padding:15px;
     border:1px solid #D93D4C;
     border-radius: 10px;
-    padding-right:30px;
-    padding-left:30px;
+    padding-right:50px;
+    padding-left:50px;
     box-shadow: 0.5px 1px 3px black;
     text-align: center;
     font-family: "sweet purple";
-    font-size: 30px;
+    font-size: 50px;
     background-color: #D93D4C;
     color:white;
     margin-bottom:10rem;
 }
+
+.personnages {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom:-80px;
+
+}
+
+.ourtest {
+    width:100%;
+    height:300px;
+    background-color: #D93D4C;
+}
+
+.line-1 {
+    height: 2px;
+    width:0rem;
+    background: black;
+    transition:width 300ms ease;
+
+}
+
+.line-1.complete {
+    width:50rem;
+}
+
+.bus {
+    padding-top:150px;
+}
+
+.boutonbonbon {
+    background-color: transparent;
+}
+
 
