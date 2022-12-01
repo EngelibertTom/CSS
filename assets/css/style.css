@@ -20,6 +20,15 @@ body {
 
 }
 
+@font-face {
+    font-family: 'sarala';
+    src: url('../../assets/font/sarala_bold.ttf') format('ttf'),
+    url('../../assets/font/sarala_bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .discover {
     background-color: #F88B61;
 }

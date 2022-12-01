@@ -20,6 +20,15 @@ body {
 
 }
 
+@font-face {
+    font-family: 'sarala';
+    src: url('../../assets/font/sarala_bold-webfont.woff') format('woff2'),
+    url('../../assets/font/sarala_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .discover {
     background-color: #D93D4C;
     padding: 100px;
@@ -44,32 +53,110 @@ h1{
 }
 
 p{
-    font-size: 25px;
+    font-family: 'sarala';
+    font-weight: 100;
+    font-size: 20px;
     color :white;
 }
 
-.gontran {
-    background-color: #C01D2A;
-    padding : 40px;
-    height: 400px;
+.container{
+    display: flex;
+    justify-content: center;
+    gap:500px;
 }
 
-.gontran .piment{
+.container .text p{
+    color:black
+}
+
+.container .text h1{
+    color: #C01D2A;
+}
+
+.text {
+    width: 400px;
+}
+
+.bg {
+    background-color: #FCDECB;
+    padding: 40px;
+}
+
+.nuage .andrew{
+    position: relative;
     background-color: white;
-    padding: 50px;
+    padding: 60px;
     border-radius: 50%;
+    z-index: 2;
+}
+
+.nuage .fond{
     position: absolute;
-
+    right: 0px;
+    z-index: 1;
 }
 
-.gontran .flamme img{
+.bg_piment {
+    background-color: #C01D2A;
+    padding: 40px;
+}
+
+.piment .gontran{
+    position: relative;
+    background-color: white;
+    padding: 60px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.piment .fond{
     position: absolute;
-    margin: 110px;
-    margin-top:10px;
+    left: 50px;
+    z-index: 1;
 }
 
-.gontran .titre{
-    margin-left: 400px;
-    text-align: left;
+.container_piment{
+    display: flex;
+    justify-content: center;
+    gap:500px;
 }
+
+.container_soleil{
+    display: flex;
+    justify-content: center;
+    gap:500px;
+}
+
+.bg_soleil {
+    background-color: #F9B233;
+    padding: 40px;
+}
+
+.soleil .gauthier{
+    position: relative;
+    background-color: white;
+    padding: 60px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.soleil .fond{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+
+.container_soleil .text h1{
+    color: #C01D2A;
+}
+
+.container_soleil .text p{
+    color: black;
+}
+
+
+
+
+
+
 
