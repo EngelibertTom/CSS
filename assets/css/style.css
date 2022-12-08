@@ -29,6 +29,15 @@ body {
 
 }
 
+@font-face {
+    font-family: 'pt banana split';
+    src: url('../../assets/font/bananasp-webfont.woff') format('ttf'),
+    url('../../assets/font/bananasp-webfont.woff') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .discover {
     background-color: #F88B61;
 }
@@ -78,28 +87,234 @@ body {
 
 .ourtest {
     width:100%;
-    height:300px;
-    background-color: #D93D4C;
+    height:fit-content;
+    background-color: #FE6972;
 }
 
 .line-1 {
-    height: 2px;
-    width:0rem;
-    background: black;
-    transition:width 300ms ease;
+
+
+
 
 }
+
 
 .line-1.complete {
     width:50rem;
 }
 
-.bus {
-    padding-top:150px;
-}
+
 
 .boutonbonbon {
     background-color: transparent;
+    border:none;
+    z-index:2;
+
+
+}
+
+.boutonbonbon2 {
+    background-color: transparent;
+    border:none;
+    z-index:2;
+
+}
+
+.boutonbonbon3 {
+    background-color: transparent;
+    border:none;
+    z-index:2;
+
+}
+
+.boutonbonbon img {
+    width:110px;
+    height:auto;
+    margin-bottom:-69px;
+}
+
+.boutonbonbon2 img {
+    width:110px;
+    height:auto;
+    margin-bottom:-140px;
+}
+
+.boutonbonbon3 img {
+    width:110px;
+    height:auto;
+    margin-bottom:-169px
+}
+
+.anim {
+    display: flex;
+    justify-content: center;
+    gap:300px;
+    position:relative;
+    padding-top:250px;
+
+}
+
+@keyframes draw {
+
+
+    to {
+        stroke-dashoffset: 2550;
+    }
+
+
+}
+
+@keyframes draw2 {
+
+    from {
+        stroke-dashoffset: 2550;
+    }
+
+    to {
+        stroke-dashoffset: 2215;
+    }
+}
+
+@keyframes draw3 {
+
+    from {
+        stroke-dashoffset: 2215;
+    }
+
+    to {
+        stroke-dashoffset: 1300;
+    }
+}
+
+@keyframes draw4 {
+
+    from {
+        stroke-dashoffset: 1300;
+    }
+
+    to {
+        stroke-dashoffset: 2550;
+    }
+}
+
+@keyframes draw5 {
+
+    from {
+        stroke-dashoffset: 1300;
+    }
+
+    to {
+
+        stroke-dashoffset: 2215;
+
+    }
+}
+
+@keyframes opacitytext {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+@keyframes opacitytext2 {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+@keyframes opacitytext3 {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+.traitsvg {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+
+    animation-play-state: paused;
+    position:absolute;
+    bottom:-60%;
+
+    z-index:1;
+
+}
+
+.traitsvg svg {
+    color: #D93D4C;
+}
+
+.titre {
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 20px;
+    animation-play-state: paused;
+
+
+}
+.titre h1 {
+
+    font-family: "pt banana split";
+    color:white;
+    font-weight: normal;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black;
+
+
+
+
+}
+
+.titre h1 strong {
+    font-family: "vintage_kingregular";
+
+    font-weight: normal;
+}
+
+#changetext {
+    transition:ease 2s;
+}
+
+.btntestwrap {
+
+    text-align: center;
+    margin-top:10rem;
+}
+
+.btntestwrap button {
+
+    padding:15px;
+    border:1px solid #D93D4C;
+    border-radius: 10px;
+    padding-right:50px;
+    padding-left:50px;
+    box-shadow: 0.5px 1px 3px black;
+    font-family: "sweet purple";
+    font-size: 50px;
+    background-color: #FCDECB;
+    color:#D93D4C;
+    margin-bottom: 10%;
+
+}
+
+.busscrolltrigger img {
+    height:150px;
+    width:auto;
 }
 
 

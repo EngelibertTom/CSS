@@ -35,30 +35,47 @@
 
 <div class="ourtest">
 
-    <div class="bus">
 
 
         <div class="anim">
 
-    <div class="line-1"></div>
+            <svg id=#traitdraw class="traitsvg" viewBox="0 0 1500 300" preserveAspectRatio="none">
+                <path d="M0,200 Q100,100 600,200, T1500 150" fill="none" stroke="#D93D4C" stroke-width="4px" ></path>
+            </svg>
+        <button class="boutonbonbon" onclick="drawsvg()"><img src="../assets/images/roue.png"></button>
+        <button class="boutonbonbon2" onclick="drawsvg2()"><img src="../assets/images/roue.png"></button>
+        <button class="boutonbonbon3" onclick="drawsvg3()"><img src="../assets/images/roue.png"></button>
 
-    <div class="btnsbonbon">
-    <button class="boutonbonbon" onclick="draw()"><img src="../assets/images/roue.png"></button>
-    </div>
+      </div>
 
+            <div class="titre">
+                    <h1 id=#changetext> Clique :) </h1>
+                </div>
+
+            <div class="btntestwrap">
+                <button>Notre test</button>
+            </div>
+
+
+    <div class="busscrolltrigger">
+
+        <img src="../assets/images/bus.png">
         </div>
 
-    </div>
-
-</div>
-
-<div>
-
-
 </div>
 
 
+<div class="about">
+
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="../assets/js/script.js"></script>
 </body>
+
 </html>
 
-<script src="../assets/js/script.js"></script>
+
