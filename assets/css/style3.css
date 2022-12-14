@@ -1,0 +1,196 @@
+body {
+    margin:0;
+}
+
+@font-face {
+    font-family: 'vintage_kingregular';
+    src: url('../../assets/font/vintageking-webfont.woff') format('woff2'),
+    url('../../assets/font/vintageking-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sweet_purple';
+    src: url('../../assets/font/sweet_purple-webfont.woff') format('woff2'),
+    url('../../assets/font/sweet_purple-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sarala';
+    src: url('../../assets/font/sarala_bold-webfont.woff') format('woff2'),
+    url('../../assets/font/sarala_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.discover {
+    background-color: #FE6972;
+    padding: 100px;
+}
+
+.discover .logo {
+    text-align: center;
+
+}
+
+.discover .logo img{
+    height: 110px;
+    width: auto;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'sarala';
+    font-size: 25px;
+    color:#D93D4C;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color:#C01D2A;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color:#e8e8e8;
+    margin: 6px 0;
+  }
+
+  h1{
+    font-family: 'vintage_kingregular';
+    color : white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'sweet_purple';
+    color : white;
+    font-size: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+p{
+    font-family: 'sarala';
+    font-weight: 100;
+    font-size: 20px;
+    color :white;
+    text-align: center;
+}
+
+.discover .text{
+    text-align: center;
+}
+
+.btn{
+    padding:15px;
+    border:1px solid #D93D4C;
+    border-radius: 10px;
+    padding-right:50px;
+    padding-left:50px;
+    box-shadow: 0.5px 1px 3px black;
+    font-family: "sweet_purple";
+    font-size: 50px;
+    background-color: #FCDECB;
+    color:#D93D4C;
+    margin-bottom: 10%;
+    
+}
+
+.bton{
+    text-align: center;
+}
+
+.choix {
+  display: flex;
+  align-items: center;
+  gap:100px;
+  justify-content: center;
+}
+
+.choix .roue img{
+  height: 60px;
+}
+
+.choix2 {
+  display: flex;
+  align-items: center;
+  gap:100px;
+  justify-content: center;
+}
+
+.choix2 .rond img{
+  height: 90px;
+}
+
+.choix3 {
+  display: flex;
+  align-items: center;
+  gap:100px;
+  justify-content: center;
+}
+
+.choix3 .rond2 img{
+  height: 90px;
+}
+
+.bg_footer{
+  background-color: #D93D4C;
+  padding:40px;
+  align-items: center;
+  display: flex;
+  gap:200px;
+}
+
+.bg_footer .logo{
+  align-content: center;
+}
+
+.bg_footer .mail {
+  text-align: center;
+}
+
