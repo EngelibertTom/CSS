@@ -178,7 +178,7 @@ p{
 
 .trefle .fond{
     position: absolute;
-    left: 50px;
+    right: 50px;
     z-index: 1;
     height: 400px;
 }
@@ -195,6 +195,7 @@ p{
     align-items: center;
     display: flex;
     gap:200px;
+    justify-content: center;
 }
 
 .bg_footer .logo{
@@ -277,6 +278,50 @@ p{
     background-color:#e8e8e8;
     margin: 6px 0;
   }
+
+  @media only screen and (max-width: 900px){
+    .container_piment{
+        display: block;
+        justify-content: center;
+        gap:500px;
+    }
+    
+    .container_soleil{
+        display: block;
+        justify-content: center;
+        gap:500px;
+    }
+
+    .container_trefle{
+        display: block;
+        justify-content: center;
+        gap:500px;
+    }
+
+    .container{
+        display: block;
+        justify-content: center;
+        gap:500px;
+    }
+
+    h1{
+        font-family: 'vintage_kingregular';
+        color : white;
+        font-size: 45px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .bg_footer{
+        background-color: #D93D4C;
+        padding:40px;
+        align-items: center;
+        display: block;
+        gap:200px;
+        justify-content: center;
+    }
+  }
+
 
 
 

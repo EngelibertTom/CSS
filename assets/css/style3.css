@@ -184,13 +184,32 @@ p{
   align-items: center;
   display: flex;
   gap:200px;
+  justify-content: center;
 }
 
 .bg_footer .logo{
-  align-content: center;
+  align-content:center;
 }
 
 .bg_footer .mail {
   text-align: center;
 }
 
+@media only screen and (max-width: 900px){
+  h1{
+    font-family: 'vintage_kingregular';
+    color : white;
+    font-size: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.bg_footer{
+    background-color: #D93D4C;
+    padding:40px;
+    align-items: center;
+    display: block;
+    gap:200px;
+    justify-content: center;
+}
+}
