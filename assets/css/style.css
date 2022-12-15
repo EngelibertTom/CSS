@@ -1,5 +1,6 @@
 body {
     margin:0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -22,8 +23,8 @@ body {
 
 @font-face {
     font-family: 'sarala';
-    src: url('../../assets/font/sarala_bold.ttf') format('ttf'),
-    url('../../assets/font/sarala_bold.ttf') format('ttf');
+    src: url('../../assets/font/sarala_bold-webfont.woff') format('woff2'),
+    url('../../assets/font/sarala_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -60,7 +61,9 @@ body {
 
 .btnwrap  {
     text-align: center;
+
 }
+
 
 .btnwrap button {
     padding:15px;
@@ -70,11 +73,16 @@ body {
     padding-left:50px;
     box-shadow: 0.5px 1px 3px black;
     text-align: center;
+    transition: transform .1s; /* Animation */
     font-family: "sweet purple";
     font-size: 50px;
     background-color: #D93D4C;
     color:white;
-    margin-bottom:10rem;
+    margin-bottom:17rem;
+}
+.btnwrap button:hover {
+    transform: scale(1.1);
+    cursor:pointer;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .personnages {
@@ -82,6 +90,7 @@ body {
     justify-content: center;
     gap:10px;
     margin-bottom:-80px;
+
 
 }
 
@@ -131,18 +140,33 @@ body {
     width:110px;
     height:auto;
     margin-bottom:-69px;
+    transition:transform .2s;
+}
+.boutonbonbon img:hover {
+    transform: scale(1.1);
+    cursor:pointer;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .boutonbonbon2 img {
     width:110px;
     height:auto;
     margin-bottom:-140px;
+    transition:transform .2s;
+}
+.boutonbonbon2 img:hover {
+    transform: scale(1.1);
+    cursor:pointer;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .boutonbonbon3 img {
     width:110px;
     height:auto;
-    margin-bottom:-169px
+    margin-bottom:-169px;
+    transition:transform .2s;
+}
+.boutonbonbon3 img:hover {
+    transform: scale(1.1);
+    cursor:pointer;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .anim {
@@ -158,7 +182,7 @@ body {
 
 
     to {
-        stroke-dashoffset: 2550;
+        stroke-dashoffset: 2590;
     }
 
 
@@ -217,7 +241,7 @@ body {
     }
 
     to {
-        opacity: 100;
+        opacity: 50;
     }
 }
 
@@ -305,16 +329,102 @@ body {
     padding-left:50px;
     box-shadow: 0.5px 1px 3px black;
     font-family: "sweet purple";
+    transition: transform .1s;
     font-size: 50px;
     background-color: #FCDECB;
     color:#D93D4C;
     margin-bottom: 10%;
 
 }
+.btntestwrap button:hover {
+    transform: scale(1.1);
+    cursor:pointer;/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 .busscrolltrigger img {
     height:150px;
     width:auto;
 }
+
+.about {
+    width: 100%;
+    height:fit-content;
+    background-image: url("../images/fond.JPG");
+    background-size: cover;
+}
+
+.textimgcontainer {
+    justify-content: center;
+    padding-top:100px;
+    gap:300px;
+    padding-bottom: 150px;
+
+
+}
+.apropos {
+
+    width:600px;
+    line-height: 40px;
+    margin-left:250px;
+    text-align: left;
+
+
+}
+.apropos h1 {
+
+    margin-bottom:80px;
+    font-family: "Vintage King";
+    font-weight:normal;
+    color:#D93D4C;
+    font-size: 50px;
+
+
+}
+
+.apropos span {
+    font-family: 'Sarala';
+}
+
+.apropos h1 strong {
+    font-family: 'sweet purple';
+}
+
+.imghomme {
+    text-align: right;
+    margin-top:-350px;
+
+
+
+}
+footer {
+    background-color: #D93D4C;
+    padding:40px;
+    justify-content: center;
+    display: flex;
+    gap:350px;
+}
+
+footer .logo {
+    align-self: center;
+}
+footer .mail {
+    font-family: "sweet purple";
+    color:white;
+
+
+}
+
+footer .mail h2  {
+    font-weight: normal;
+    font-size:35px;
+}
+
+footer .rsx{
+
+  align-self: center;
+
+
+}
+
 
 

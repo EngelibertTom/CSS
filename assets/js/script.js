@@ -63,9 +63,21 @@ function drawsvg3 () {
 
 gsap.to(".busscrolltrigger", {
    scrollTrigger: ".busscrolltrigger", // start the animation when ".box" enters the viewport (once)
-   x: 1500
+   x: 1600,
+   scrub: true,
 });
 
 
+/*gsap.to(".bussscrolltrigger", {
+
+   scrollTrigger:{
+      trigger: '.busscrolltrigger',
+      markers:true,
+      start: 'top top',
+      scrub: true,
+
+   },
+    x: 1500,
+});*/
 
 
